@@ -2,10 +2,6 @@
 
 	$br = "<br />";	
 
-//	echo "<!-- $color $color $color $color -->\n";
-//	echo "<!-- $color $color $color $color -->\n";
-//	echo "<!-- $color $color $color $color -->\n";
-
 	echo "<div id='serverheader'><h3>server</h3></div>";
 	echo "<div id='serverinfo' style=\"display:block\">";
 
