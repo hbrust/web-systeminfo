@@ -8,9 +8,7 @@
 
 	echo "<div id='serverheader'><h3>server</h3></div>";
 	echo "<div id='serverinfo' style=\"display:block\">";
-	//echo "Document Root: " . $_SERVER['DOCUMENT_ROOT'] . $br;
-	
-	// for apache use:
+
 	echo "POD IP: " . $_SERVER['SERVER_ADDR'] . $br;
         echo "POD DNS: " . gethostbyaddr($_SERVER['SERVER_ADDR']) . $br . $br;
 	echo "Client IP: " . $_SERVER['REMOTE_ADDR'] . $br;
